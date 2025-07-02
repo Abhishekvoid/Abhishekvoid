@@ -34,7 +34,7 @@
 
 ### ⚡ Fun Fact
 
-> I didn’t plan to become a software dev — but I’m giving it my all, learning from my mistakes, and building my future one project at a time.
+> I’m giving it my all, learning from my mistakes, and building my future one project at a time.
 
 ---
 
