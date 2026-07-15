@@ -1,0 +1,28 @@
+<svg width="1100" height="170" viewBox="0 0 1100 170" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace,'Cascadia Mono','SF Mono',Menlo,Consolas,monospace">
+  <rect x="1.5" y="1.5" width="1097" height="167" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+
+  <g stroke="#21262d" stroke-width="1">
+    <line x1="380" y1="20" x2="380" y2="150"/>
+    <line x1="740" y1="20" x2="740" y2="150"/>
+  </g>
+
+  <g font-size="13" letter-spacing="2">
+    <text x="44" y="46" fill="#ffa657">BACKEND</text>
+    <text x="410" y="46" fill="#ffa657">AI / RAG</text>
+    <text x="770" y="46" fill="#ffa657">ROBOTICS</text>
+  </g>
+
+  <g font-size="13.5" fill="#8b949e">
+    <text x="44" y="78">python · django · drf · fastapi</text>
+    <text x="44" y="102">celery · redis · postgresql</text>
+    <text x="44" y="126">websockets · distributed systems</text>
+
+    <text x="410" y="78">qdrant · TEI embeddings</text>
+    <text x="410" y="102">llama 3 · groq · reranking</text>
+    <text x="410" y="126">rag pipelines · prompt eng</text>
+
+    <text x="770" y="78">ros2 · sensor fusion</text>
+    <text x="770" y="102">yolov8 · opencv · lidar</text>
+    <text x="770" y="126">modbus tcp · real-time control</text>
+  </g>
+</svg>
