@@ -6,7 +6,7 @@
 <table align="center">
 <tr>
 <td width="230" align="center" valign="middle">
-<img src="assets/portrait.png" width="200" alt="Abhishek Rajput">
+
 </td>
 <td valign="middle">
 I build backends that talk to robots, LLMs, and 60,000 sensors — and stay up.<br>
