@@ -1,7 +1,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
   <img alt="Abhishek Rajput — Backend · Robotics · AI Systems" src="assets/hero-light.svg" width="100%">
-  <img src="assets/portrait.png" width="200" alt="Abhishek Rajput">
+  
 </picture>
 
 <table align="center">
@@ -9,6 +9,7 @@
 <td width="230" align="center" valign="middle">
 
 </td>
+<img src="assets/portrait.png" width="200" alt="Abhishek Rajput">
 I build backends that talk to robots, LLMs, and 60,000 sensors — and stay up.<br>
 <sub><b>open to:</b> backend / systems-integration roles in robotics, AI, high-growth startups &nbsp;·&nbsp; <a href="https://linkedin.com/in/abhishek-rajput-4ba60221a">linkedin</a> · <a href="mailto:abhishek.rajput7202@gmail.com">email</a> · <a href="https://systemsabhishekrajput.hashnode.dev">blog</a></sub>
 </td>
