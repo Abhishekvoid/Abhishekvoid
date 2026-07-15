@@ -77,8 +77,7 @@
 
 <br>
 
-<img alt="Contribution activity" src="https://github-readme-activity-graph.vercel.app/graph?username=Abhishekvoid
-  &bg_color=0d1117&color=8b949e&line=ffa657&point=79c0ff&area=true&area_color=1c1408&hide_border=false&border_color=30363d" width="100%">
+<img alt="Contribution activity" src="https://github-readme-activity-graph.vercel.app/graph?username=Abhishekvoid&bg_color=0d1117&color=8b949e&line=ffa657&point=79c0ff&area=true&area_color=1c1408&hide_border=false&border_color=30363d" width="100%">
 
 <p align="center">
   <sub>⌘ built by hand — every svg and ascii diagram in this readme is hand-written, like the systems above</sub>
