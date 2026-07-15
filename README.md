@@ -3,10 +3,17 @@
   <img alt="Abhishek Rajput — Backend · Robotics · AI Systems" src="assets/hero-light.svg" width="100%">
 </picture>
 
-<p align="center">
-  I build backends that talk to robots, LLMs, and 60,000 sensors — and stay up.<br>
-  <sub><b>open to:</b> backend / systems-integration roles in robotics, AI, high-growth startups &nbsp;·&nbsp; <a href="https://linkedin.com/in/abhishek-rajput-4ba60221a">linkedin</a> · <a href="mailto:abhishek.rajput7202@gmail.com">email</a> · <a href="https://systemsabhishekrajput.hashnode.dev">blog</a></sub>
-</p>
+<table align="center">
+<tr>
+<td width="230" align="center" valign="middle">
+<img src="assets/portrait.png" width="200" alt="Abhishek Rajput">
+</td>
+<td valign="middle">
+I build backends that talk to robots, LLMs, and 60,000 sensors — and stay up.<br>
+<sub><b>open to:</b> backend / systems-integration roles in robotics, AI, high-growth startups &nbsp;·&nbsp; <a href="https://linkedin.com/in/abhishek-rajput-4ba60221a">linkedin</a> · <a href="mailto:abhishek.rajput7202@gmail.com">email</a> · <a href="https://systemsabhishekrajput.hashnode.dev">blog</a></sub>
+</td>
+</tr>
+</table>
 
 <br>
 
@@ -57,6 +64,26 @@
                                        llama 3 ──► answer   ~1.5–2s e2e
 ```
 
+<details>
+<summary>&nbsp;▶ trace one query through the pipeline ↓</summary>
+
+```text
+┌─ retrieval trace ───────────── q: "reset torque on axis 3" · 1.6s ─┐
+│  embed 384d ► qdrant top-8 ► cross-encoder rerank ► llama-3        │
+│                                                                    │
+│  #  source                     cosine       rerank  keep           │
+│  1  servo_manual.pdf  p.42     ▓▓▓▓▓▓▓▓ .91  #8 ► #1  ●            │
+│  2  faults_axis3.md   §3.1     ▓▓▓▓▓▓▓░ .87  #3 ► #2  ●            │
+│  3  torque_calib.pdf  p.7      ▓▓▓▓▓▓░░ .81  #1 ► #3  ●            │
+│  4  changelog_fw.txt  L204     ▓▓▓▓░░░░ .64  #2 ► —   ○ dropped    │
+│     +4 more candidates retrieved · reranked · top-3 kept           │
+│                                                                    │
+│  answer  ████████████████░░ streaming · 47 tok · grounded          │
+└─ breaker: closed · cache hit 63% · retries 0 · p95 1.9s ───────────┘
+```
+
+</details>
+
 <img alt="RAG demo — live retrieval and generation" src="assets/rag-demo.gif" width="100%">
 
 <sub>[architecture](https://excalidraw.com/#json=WxdU0V5sXS3nq6P_Y6B64,JiHbZ1uTvnB1_zVRGzv5hA) · [full demo video](https://github.com/user-attachments/assets/8a085ae0-b3b3-487c-a681-ca29f5237222)</sub>
@@ -70,6 +97,25 @@
      60k tags                        │
                                      └──► ws fan-out ──► dashboards (500+ users)
 ```
+
+<details>
+<summary>&nbsp;the client dashboards are restricted — here's the ops console ↓</summary>
+
+```text
+┌─ ops console ──────────────────────────── 20 sites · ● 500 online ─┐
+│  site        tags    ingest/s   lag    state                       │
+│  PLANT-01    8,204   ▓▓▓▓▓▓▓░ 1.2k   14ms   ● nominal              │
+│  PLANT-07    9,880   ▓▓▓▓▓▓▓▓ 1.5k   19ms   ● nominal              │
+│  DEPOT-03    6,140   ▓▓▓▓▓░░░ 0.8k   52ms   ▲ backpressure         │
+│  RIG-11      4,905   ▓▓▓▓▓▓░░ 1.0k   22ms   ● nominal              │
+│     … 16 more tenants · isolated · RBAC-scoped                     │
+│                                                                    │
+│  redis hot ██████████████░░ 61k keys   celery ▓▓▓▓▓▓▓░ 88%         │
+│  ws fan-out ► 500 dashboards   drops 0   reconnect <200ms          │
+└─ postgres p99 18ms · alerts 0 · uptime 99.98% · 90d ───────────────┘
+```
+
+</details>
 
 <br>
 

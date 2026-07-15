@@ -1,43 +1,23 @@
 <svg width="1100" height="300" viewBox="0 0 1100 300" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace,'Cascadia Mono','SF Mono',Menlo,Consolas,monospace">
   <rect x="1.5" y="1.5" width="1097" height="297" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
-
+  <rect x="3.5" y="3.5" width="1093" height="293" rx="6.5" fill="none" stroke="#21262d" stroke-width="1"/>
   <g stroke="#30363d" stroke-width="1.5" fill="none">
-    <path d="M18 32V18H32"/><path d="M1068 18H1082V32"/>
-    <path d="M18 268V282H32"/><path d="M1082 268V282H1068"/>
+    <path d="M18 32V18H32"/><path d="M1068 18H1082 V32"/>
+    <path d="M18 268V282 H32"/><path d="M1082 268V282 H1068"/>
   </g>
-
   <text x="44" y="52" font-size="13" fill="#484f58">SYS.03</text>
   <text x="110" y="52" font-size="20" font-weight="700" letter-spacing="1.5" fill="#e6edf3">MULTI-TENANT IIoT PLATFORM</text>
-  <g>
-    <rect x="44" y="66" width="330" height="22" rx="4" fill="#1c1408" stroke="#9e6a03"/>
-    <text x="54" y="81" font-size="12" fill="#d29922">▓ CLIENT SYSTEMS — VISUALS RESTRICTED</text>
-  </g>
-
+  <rect x="44" y="66" width="330" height="22" rx="4" fill="#1c1408" stroke="#9e6a03"/>
+  <text x="54" y="81" font-size="12" fill="#d29922">▓ CLIENT SYSTEMS — VISUALS RESTRICTED</text>
   <text x="1056" y="86" text-anchor="end" font-size="58" font-weight="700" fill="#ffa657">60k+</text>
   <text x="1056" y="110" text-anchor="end" font-size="13" fill="#484f58">sensor tags · 500+ concurrent users · 20+ facilities</text>
-
-  <g font-size="12.5" fill="#79c0ff" text-anchor="middle">
-    <rect x="44"  y="150" width="170" height="46" rx="6" fill="#0d1420" stroke="#1f6feb"/>
-    <text x="129" y="170">FACILITIES ×20</text>
-    <text x="129" y="186" fill="#484f58">industrial sensors</text>
-
-    <rect x="264" y="150" width="160" height="46" rx="6" fill="#0d1420" stroke="#1f6feb"/>
-    <text x="344" y="170">CELERY INGEST</text>
-    <text x="344" y="186" fill="#484f58">async pipelines</text>
-
-    <rect x="474" y="150" width="130" height="46" rx="6" fill="#0d1420" stroke="#1f6feb"/>
-    <text x="539" y="170">REDIS</text>
-    <text x="539" y="186" fill="#484f58">hot state</text>
-
-    <rect x="654" y="150" width="150" height="46" rx="6" fill="#0d1420" stroke="#1f6feb"/>
-    <text x="729" y="170">POSTGRES</text>
-    <text x="729" y="186" fill="#484f58">query-optimized</text>
-
-    <rect x="854" y="150" width="150" height="46" rx="6" fill="#0d1420" stroke="#1f6feb"/>
-    <text x="929" y="170">WS DASHBOARDS</text>
-    <text x="929" y="186" fill="#484f58">real-time</text>
+  <g>
+    <rect x="40" y="146" width="178" height="54" rx="8" fill="none" stroke="#58a6ff" stroke-width="1.5" opacity="0"><animate attributeName="opacity" values="0.000;0.000;0.540;0.000;0.000;0.540;0.000;0.000" keyTimes="0.0000;0.0619;0.0885;0.1519;0.5619;0.5885;0.6519;1.0000" dur="6.0s" repeatCount="indefinite" calcMode="linear"/></rect>
+    <rect x="260" y="146" width="168" height="54" rx="8" fill="none" stroke="#58a6ff" stroke-width="1.5" opacity="0"><animate attributeName="opacity" values="0.000;0.000;0.540;0.000;0.000;0.540;0.000;0.000" keyTimes="0.0000;0.2858;0.3125;0.3758;0.7858;0.8125;0.8758;1.0000" dur="6.0s" repeatCount="indefinite" calcMode="linear"/></rect>
+    <rect x="470" y="146" width="138" height="54" rx="8" fill="none" stroke="#58a6ff" stroke-width="1.5" opacity="0"><animate attributeName="opacity" values="0.000;0.540;0.000;0.000;0.540;0.000;0.000" keyTimes="0.0000;0.0156;0.0790;0.4890;0.5156;0.5790;1.0000" dur="6.0s" repeatCount="indefinite" calcMode="linear"/></rect>
+    <rect x="650" y="146" width="158" height="54" rx="8" fill="none" stroke="#58a6ff" stroke-width="1.5" opacity="0"><animate attributeName="opacity" values="0.000;0.000;0.540;0.000;0.000;0.540;0.000;0.000" keyTimes="0.0000;0.1869;0.2135;0.2769;0.6869;0.7135;0.7769;1.0000" dur="6.0s" repeatCount="indefinite" calcMode="linear"/></rect>
+    <rect x="850" y="146" width="158" height="54" rx="8" fill="none" stroke="#58a6ff" stroke-width="1.5" opacity="0"><animate attributeName="opacity" values="0.000;0.000;0.540;0.000;0.000;0.540;0.000;0.000" keyTimes="0.0000;0.3952;0.4219;0.4852;0.8952;0.9219;0.9852;1.0000" dur="6.0s" repeatCount="indefinite" calcMode="linear"/></rect>
   </g>
-
   <g stroke="#30363d" stroke-width="1.5">
     <line x1="214" y1="173" x2="264" y2="173"/>
     <line x1="424" y1="173" x2="474" y2="173"/>
@@ -45,17 +25,37 @@
     <line x1="804" y1="173" x2="854" y2="173"/>
   </g>
   <g fill="#30363d">
-    <path d="M258 169l8 4-8 4z"/><path d="M468 169l8 4-8 4z"/>
-    <path d="M648 169l8 4-8 4z"/><path d="M848 169l8 4-8 4z"/>
+    <path d="M258 169l8 4-8 4z"/>
+    <path d="M468 169l8 4-8 4z"/>
+    <path d="M648 169l8 4-8 4z"/>
+    <path d="M848 169l8 4-8 4z"/>
   </g>
-
-  <text x="529" y="218" text-anchor="middle" font-size="11.5" fill="#484f58">RBAC · tenant isolation · per-tenant data partitioning</text>
-
-  <circle r="3.5" fill="#ffa657">
-    <animateMotion path="M44 173 H1004" dur="4.5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.9;1" dur="4.5s" repeatCount="indefinite"/>
+  <circle r="3.4" fill="#ffa657">
+    <animateMotion path="M44 173 H1004" dur="6.0s" begin="0s" calcMode="linear" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.04;0.96;1" dur="6.0s" begin="0s" repeatCount="indefinite"/>
   </circle>
-
+  <circle r="3.4" fill="#ffa657">
+    <animateMotion path="M44 173 H1004" dur="6.0s" begin="-3s" calcMode="linear" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.04;0.96;1" dur="6.0s" begin="-3s" repeatCount="indefinite"/>
+  </circle>
+  <g>
+    <rect x="44" y="150" width="170" height="46" rx="6" fill="#0d1420" stroke="#1f6feb" stroke-width="1"><animate attributeName="stroke" values="#1f6feb;#1f6feb;#70b8fd;#1f6feb;#1f6feb;#70b8fd;#1f6feb;#1f6feb" keyTimes="0.0000;0.0619;0.0885;0.1519;0.5619;0.5885;0.6519;1.0000" dur="6.0s" repeatCount="indefinite" calcMode="linear"/><animate attributeName="fill" values="#0d1420;#0d1420;#132238;#0d1420;#0d1420;#132238;#0d1420;#0d1420" keyTimes="0.0000;0.0619;0.0885;0.1519;0.5619;0.5885;0.6519;1.0000" dur="6.0s" repeatCount="indefinite" calcMode="linear"/><animate attributeName="stroke-width" values="1.00;1.00;2.26;1.00;1.00;2.26;1.00;1.00" keyTimes="0.0000;0.0619;0.0885;0.1519;0.5619;0.5885;0.6519;1.0000" dur="6.0s" repeatCount="indefinite" calcMode="linear"/></rect>
+    <rect x="264" y="150" width="160" height="46" rx="6" fill="#0d1420" stroke="#1f6feb" stroke-width="1"><animate attributeName="stroke" values="#1f6feb;#1f6feb;#70b8fd;#1f6feb;#1f6feb;#70b8fd;#1f6feb;#1f6feb" keyTimes="0.0000;0.2858;0.3125;0.3758;0.7858;0.8125;0.8758;1.0000" dur="6.0s" repeatCount="indefinite" calcMode="linear"/><animate attributeName="fill" values="#0d1420;#0d1420;#132238;#0d1420;#0d1420;#132238;#0d1420;#0d1420" keyTimes="0.0000;0.2858;0.3125;0.3758;0.7858;0.8125;0.8758;1.0000" dur="6.0s" repeatCount="indefinite" calcMode="linear"/><animate attributeName="stroke-width" values="1.00;1.00;2.26;1.00;1.00;2.26;1.00;1.00" keyTimes="0.0000;0.2858;0.3125;0.3758;0.7858;0.8125;0.8758;1.0000" dur="6.0s" repeatCount="indefinite" calcMode="linear"/></rect>
+    <rect x="474" y="150" width="130" height="46" rx="6" fill="#0d1420" stroke="#1f6feb" stroke-width="1"><animate attributeName="stroke" values="#1f6feb;#70b8fd;#1f6feb;#1f6feb;#70b8fd;#1f6feb;#1f6feb" keyTimes="0.0000;0.0156;0.0790;0.4890;0.5156;0.5790;1.0000" dur="6.0s" repeatCount="indefinite" calcMode="linear"/><animate attributeName="fill" values="#0d1420;#132238;#0d1420;#0d1420;#132238;#0d1420;#0d1420" keyTimes="0.0000;0.0156;0.0790;0.4890;0.5156;0.5790;1.0000" dur="6.0s" repeatCount="indefinite" calcMode="linear"/><animate attributeName="stroke-width" values="1.00;2.26;1.00;1.00;2.26;1.00;1.00" keyTimes="0.0000;0.0156;0.0790;0.4890;0.5156;0.5790;1.0000" dur="6.0s" repeatCount="indefinite" calcMode="linear"/></rect>
+    <rect x="654" y="150" width="150" height="46" rx="6" fill="#0d1420" stroke="#1f6feb" stroke-width="1"><animate attributeName="stroke" values="#1f6feb;#1f6feb;#70b8fd;#1f6feb;#1f6feb;#70b8fd;#1f6feb;#1f6feb" keyTimes="0.0000;0.1869;0.2135;0.2769;0.6869;0.7135;0.7769;1.0000" dur="6.0s" repeatCount="indefinite" calcMode="linear"/><animate attributeName="fill" values="#0d1420;#0d1420;#132238;#0d1420;#0d1420;#132238;#0d1420;#0d1420" keyTimes="0.0000;0.1869;0.2135;0.2769;0.6869;0.7135;0.7769;1.0000" dur="6.0s" repeatCount="indefinite" calcMode="linear"/><animate attributeName="stroke-width" values="1.00;1.00;2.26;1.00;1.00;2.26;1.00;1.00" keyTimes="0.0000;0.1869;0.2135;0.2769;0.6869;0.7135;0.7769;1.0000" dur="6.0s" repeatCount="indefinite" calcMode="linear"/></rect>
+    <rect x="854" y="150" width="150" height="46" rx="6" fill="#0d1420" stroke="#1f6feb" stroke-width="1"><animate attributeName="stroke" values="#1f6feb;#1f6feb;#70b8fd;#1f6feb;#1f6feb;#70b8fd;#1f6feb;#1f6feb" keyTimes="0.0000;0.3952;0.4219;0.4852;0.8952;0.9219;0.9852;1.0000" dur="6.0s" repeatCount="indefinite" calcMode="linear"/><animate attributeName="fill" values="#0d1420;#0d1420;#132238;#0d1420;#0d1420;#132238;#0d1420;#0d1420" keyTimes="0.0000;0.3952;0.4219;0.4852;0.8952;0.9219;0.9852;1.0000" dur="6.0s" repeatCount="indefinite" calcMode="linear"/><animate attributeName="stroke-width" values="1.00;1.00;2.26;1.00;1.00;2.26;1.00;1.00" keyTimes="0.0000;0.3952;0.4219;0.4852;0.8952;0.9219;0.9852;1.0000" dur="6.0s" repeatCount="indefinite" calcMode="linear"/></rect>
+    <text x="129" y="170" text-anchor="middle" fill="#79c0ff" font-size="12.5">FACILITIES ×20</text>
+    <text x="129" y="186" text-anchor="middle" fill="#484f58" font-size="12.5">industrial sensors</text>
+    <text x="344" y="170" text-anchor="middle" fill="#79c0ff" font-size="12.5">CELERY INGEST</text>
+    <text x="344" y="186" text-anchor="middle" fill="#484f58" font-size="12.5">async pipelines</text>
+    <text x="539" y="170" text-anchor="middle" fill="#79c0ff" font-size="12.5">REDIS</text>
+    <text x="539" y="186" text-anchor="middle" fill="#484f58" font-size="12.5">hot state</text>
+    <text x="729" y="170" text-anchor="middle" fill="#79c0ff" font-size="12.5">POSTGRES</text>
+    <text x="729" y="186" text-anchor="middle" fill="#484f58" font-size="12.5">query-optimized</text>
+    <text x="929" y="170" text-anchor="middle" fill="#79c0ff" font-size="12.5">WS DASHBOARDS</text>
+    <text x="929" y="186" text-anchor="middle" fill="#484f58" font-size="12.5">real-time</text>
+  </g>
+  <text x="529" y="218" text-anchor="middle" font-size="11.5" fill="#484f58">RBAC · tenant isolation · per-tenant data partitioning</text>
   <g font-size="12" fill="#8b949e">
     <text x="44" y="264">django</text><text x="112" y="264">celery</text><text x="170" y="264">redis</text>
     <text x="222" y="264">postgresql</text><text x="318" y="264">websockets</text>

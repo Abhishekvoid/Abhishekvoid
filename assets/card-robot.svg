@@ -1,48 +1,23 @@
 <svg width="1100" height="300" viewBox="0 0 1100 300" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace,'Cascadia Mono','SF Mono',Menlo,Consolas,monospace">
   <rect x="1.5" y="1.5" width="1097" height="297" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
-
-  <!-- corner ticks -->
+  <rect x="3.5" y="3.5" width="1093" height="293" rx="6.5" fill="none" stroke="#21262d" stroke-width="1"/>
   <g stroke="#30363d" stroke-width="1.5" fill="none">
-    <path d="M18 32V18H32"/><path d="M1068 18H1082V32"/>
-    <path d="M18 268V282H32"/><path d="M1082 268V282H1068"/>
+    <path d="M18 32V18H32"/><path d="M1068 18H1082 V32"/>
+    <path d="M18 268V282 H32"/><path d="M1082 268V282 H1068"/>
   </g>
-
-  <!-- header -->
   <text x="44" y="52" font-size="13" fill="#484f58">SYS.01</text>
   <text x="110" y="52" font-size="20" font-weight="700" letter-spacing="1.5" fill="#e6edf3">AUTONOMOUS ROBOT CONTROL</text>
-  <g>
-    <rect x="44" y="66" width="360" height="22" rx="4" fill="#1c1408" stroke="#9e6a03"/>
-    <text x="54" y="81" font-size="12" fill="#d29922">▓ DEFENSE SYSTEM — VISUALS RESTRICTED</text>
-  </g>
-
-  <!-- headline metric -->
+  <rect x="44" y="66" width="360" height="22" rx="4" fill="#1c1408" stroke="#9e6a03"/>
+  <text x="54" y="81" font-size="12" fill="#d29922">▓ DEFENSE SYSTEM — VISUALS RESTRICTED</text>
   <text x="1056" y="86" text-anchor="end" font-size="58" font-weight="700" fill="#ffa657">150ms</text>
   <text x="1056" y="110" text-anchor="end" font-size="13" fill="#484f58">control latency — was 500ms · 3× faster</text>
-
-  <!-- flow -->
-  <g font-size="12.5" fill="#79c0ff" text-anchor="middle">
-    <rect x="44"  y="150" width="170" height="46" rx="6" fill="#0d1420" stroke="#1f6feb"/>
-    <text x="129" y="170">SENSORS</text>
-    <text x="129" y="186" fill="#484f58">YOLOv8 · LiDAR · UWB</text>
-
-    <rect x="264" y="150" width="140" height="46" rx="6" fill="#0d1420" stroke="#1f6feb"/>
-    <text x="334" y="170">ROS2</text>
-    <text x="334" y="186" fill="#484f58">sensor fusion</text>
-
-    <rect x="454" y="150" width="150" height="46" rx="6" fill="#0d1420" stroke="#1f6feb"/>
-    <text x="529" y="170">DJANGO</text>
-    <text x="529" y="186" fill="#484f58">orchestration</text>
-
-    <rect x="654" y="150" width="150" height="46" rx="6" fill="#0d1420" stroke="#1f6feb"/>
-    <text x="729" y="170">MODBUS TCP</text>
-    <text x="729" y="186" fill="#484f58">direct control</text>
-
-    <rect x="854" y="150" width="150" height="46" rx="6" fill="#0d1420" stroke="#1f6feb"/>
-    <text x="929" y="170">PLC / DRIVES</text>
-    <text x="929" y="186" fill="#484f58">actuation</text>
+  <g>
+    <rect x="40" y="146" width="178" height="54" rx="8" fill="none" stroke="#58a6ff" stroke-width="1.5" opacity="0"><animate attributeName="opacity" values="0.000;0.000;0.600;0.000;0.000;0.300;0.000;0.000" keyTimes="0.0000;0.0147;0.0413;0.1047;0.8438;0.8705;0.9338;1.0000" dur="6.0s" repeatCount="indefinite" calcMode="linear"/></rect>
+    <rect x="260" y="146" width="148" height="54" rx="8" fill="none" stroke="#58a6ff" stroke-width="1.5" opacity="0"><animate attributeName="opacity" values="0.000;0.000;0.600;0.000;0.000;0.300;0.000;0.000" keyTimes="0.0000;0.1143;0.1410;0.2043;0.7726;0.7993;0.8626;1.0000" dur="6.0s" repeatCount="indefinite" calcMode="linear"/></rect>
+    <rect x="450" y="146" width="158" height="54" rx="8" fill="none" stroke="#58a6ff" stroke-width="1.5" opacity="0"><animate attributeName="opacity" values="0.000;0.000;0.600;0.000;0.000;0.300;0.000;0.000" keyTimes="0.0000;0.2091;0.2358;0.2991;0.7049;0.7316;0.7949;1.0000" dur="6.0s" repeatCount="indefinite" calcMode="linear"/></rect>
+    <rect x="650" y="146" width="158" height="54" rx="8" fill="none" stroke="#58a6ff" stroke-width="1.5" opacity="0"><animate attributeName="opacity" values="0.000;0.000;0.600;0.000;0.000;0.300;0.000;0.000" keyTimes="0.0000;0.3063;0.3330;0.3963;0.6355;0.6622;0.7255;1.0000" dur="6.0s" repeatCount="indefinite" calcMode="linear"/></rect>
+    <rect x="850" y="146" width="158" height="54" rx="8" fill="none" stroke="#58a6ff" stroke-width="1.5" opacity="0"><animate attributeName="opacity" values="0.000;0.000;0.600;0.000;0.000;0.300;0.000;0.000" keyTimes="0.0000;0.4035;0.4302;0.4935;0.5660;0.5927;0.6560;1.0000" dur="6.0s" repeatCount="indefinite" calcMode="linear"/></rect>
   </g>
-
-  <!-- arrows -->
   <g stroke="#30363d" stroke-width="1.5">
     <line x1="214" y1="173" x2="264" y2="173"/>
     <line x1="404" y1="173" x2="454" y2="173"/>
@@ -50,20 +25,37 @@
     <line x1="804" y1="173" x2="854" y2="173"/>
   </g>
   <g fill="#30363d">
-    <path d="M258 169l8 4-8 4z"/><path d="M448 169l8 4-8 4z"/>
-    <path d="M648 169l8 4-8 4z"/><path d="M848 169l8 4-8 4z"/>
+    <path d="M258 169l8 4-8 4z"/>
+    <path d="M448 169l8 4-8 4z"/>
+    <path d="M648 169l8 4-8 4z"/>
+    <path d="M848 169l8 4-8 4z"/>
   </g>
-
-  <!-- ws branch -->
-  <text x="529" y="218" text-anchor="middle" font-size="11.5" fill="#484f58">▲▼ websockets ~60ms · HMI (react) · redis state reconciliation</text>
-
-  <!-- animated data pulse -->
-  <circle r="3.5" fill="#ffa657">
-    <animateMotion path="M44 173 H1004" dur="4s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.9;1" dur="4s" repeatCount="indefinite"/>
+  <circle r="3.6" fill="#ffa657">
+    <animateMotion path="M44 173 H1004" dur="6.0s" keyPoints="0;1" keyTimes="0;0.4667" calcMode="linear" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.04;0.42;0.4667;1" dur="6.0s" repeatCount="indefinite"/>
   </circle>
-
-  <!-- stack chips -->
+  <circle r="3.0" fill="#79c0ff">
+    <animateMotion path="M1004 173 H44" dur="6.0s" keyPoints="0;0;1;1" keyTimes="0;0.5667;0.9;1" calcMode="linear" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;0.55;0.55;0;0" keyTimes="0;0.5667;0.6;0.88;0.9;1" dur="6.0s" repeatCount="indefinite"/>
+  </circle>
+  <g>
+    <rect x="44" y="150" width="170" height="46" rx="6" fill="#0d1420" stroke="#1f6feb" stroke-width="1"><animate attributeName="stroke" values="#1f6feb;#1f6feb;#79c0ff;#1f6feb;#1f6feb;#4c98f5;#1f6feb;#1f6feb" keyTimes="0.0000;0.0147;0.0413;0.1047;0.8438;0.8705;0.9338;1.0000" dur="6.0s" repeatCount="indefinite" calcMode="linear"/><animate attributeName="fill" values="#0d1420;#0d1420;#14243b;#0d1420;#0d1420;#101c2e;#0d1420;#0d1420" keyTimes="0.0000;0.0147;0.0413;0.1047;0.8438;0.8705;0.9338;1.0000" dur="6.0s" repeatCount="indefinite" calcMode="linear"/><animate attributeName="stroke-width" values="1.00;1.00;2.40;1.00;1.00;1.70;1.00;1.00" keyTimes="0.0000;0.0147;0.0413;0.1047;0.8438;0.8705;0.9338;1.0000" dur="6.0s" repeatCount="indefinite" calcMode="linear"/></rect>
+    <rect x="264" y="150" width="140" height="46" rx="6" fill="#0d1420" stroke="#1f6feb" stroke-width="1"><animate attributeName="stroke" values="#1f6feb;#1f6feb;#79c0ff;#1f6feb;#1f6feb;#4c98f5;#1f6feb;#1f6feb" keyTimes="0.0000;0.1143;0.1410;0.2043;0.7726;0.7993;0.8626;1.0000" dur="6.0s" repeatCount="indefinite" calcMode="linear"/><animate attributeName="fill" values="#0d1420;#0d1420;#14243b;#0d1420;#0d1420;#101c2e;#0d1420;#0d1420" keyTimes="0.0000;0.1143;0.1410;0.2043;0.7726;0.7993;0.8626;1.0000" dur="6.0s" repeatCount="indefinite" calcMode="linear"/><animate attributeName="stroke-width" values="1.00;1.00;2.40;1.00;1.00;1.70;1.00;1.00" keyTimes="0.0000;0.1143;0.1410;0.2043;0.7726;0.7993;0.8626;1.0000" dur="6.0s" repeatCount="indefinite" calcMode="linear"/></rect>
+    <rect x="454" y="150" width="150" height="46" rx="6" fill="#0d1420" stroke="#1f6feb" stroke-width="1"><animate attributeName="stroke" values="#1f6feb;#1f6feb;#79c0ff;#1f6feb;#1f6feb;#4c98f5;#1f6feb;#1f6feb" keyTimes="0.0000;0.2091;0.2358;0.2991;0.7049;0.7316;0.7949;1.0000" dur="6.0s" repeatCount="indefinite" calcMode="linear"/><animate attributeName="fill" values="#0d1420;#0d1420;#14243b;#0d1420;#0d1420;#101c2e;#0d1420;#0d1420" keyTimes="0.0000;0.2091;0.2358;0.2991;0.7049;0.7316;0.7949;1.0000" dur="6.0s" repeatCount="indefinite" calcMode="linear"/><animate attributeName="stroke-width" values="1.00;1.00;2.40;1.00;1.00;1.70;1.00;1.00" keyTimes="0.0000;0.2091;0.2358;0.2991;0.7049;0.7316;0.7949;1.0000" dur="6.0s" repeatCount="indefinite" calcMode="linear"/></rect>
+    <rect x="654" y="150" width="150" height="46" rx="6" fill="#0d1420" stroke="#1f6feb" stroke-width="1"><animate attributeName="stroke" values="#1f6feb;#1f6feb;#79c0ff;#1f6feb;#1f6feb;#4c98f5;#1f6feb;#1f6feb" keyTimes="0.0000;0.3063;0.3330;0.3963;0.6355;0.6622;0.7255;1.0000" dur="6.0s" repeatCount="indefinite" calcMode="linear"/><animate attributeName="fill" values="#0d1420;#0d1420;#14243b;#0d1420;#0d1420;#101c2e;#0d1420;#0d1420" keyTimes="0.0000;0.3063;0.3330;0.3963;0.6355;0.6622;0.7255;1.0000" dur="6.0s" repeatCount="indefinite" calcMode="linear"/><animate attributeName="stroke-width" values="1.00;1.00;2.40;1.00;1.00;1.70;1.00;1.00" keyTimes="0.0000;0.3063;0.3330;0.3963;0.6355;0.6622;0.7255;1.0000" dur="6.0s" repeatCount="indefinite" calcMode="linear"/></rect>
+    <rect x="854" y="150" width="150" height="46" rx="6" fill="#0d1420" stroke="#1f6feb" stroke-width="1"><animate attributeName="stroke" values="#1f6feb;#1f6feb;#79c0ff;#1f6feb;#1f6feb;#4c98f5;#1f6feb;#1f6feb" keyTimes="0.0000;0.4035;0.4302;0.4935;0.5660;0.5927;0.6560;1.0000" dur="6.0s" repeatCount="indefinite" calcMode="linear"/><animate attributeName="fill" values="#0d1420;#0d1420;#14243b;#0d1420;#0d1420;#101c2e;#0d1420;#0d1420" keyTimes="0.0000;0.4035;0.4302;0.4935;0.5660;0.5927;0.6560;1.0000" dur="6.0s" repeatCount="indefinite" calcMode="linear"/><animate attributeName="stroke-width" values="1.00;1.00;2.40;1.00;1.00;1.70;1.00;1.00" keyTimes="0.0000;0.4035;0.4302;0.4935;0.5660;0.5927;0.6560;1.0000" dur="6.0s" repeatCount="indefinite" calcMode="linear"/></rect>
+    <text x="129" y="170" text-anchor="middle" fill="#79c0ff" font-size="12.5">SENSORS</text>
+    <text x="129" y="186" text-anchor="middle" fill="#484f58" font-size="12.5">YOLOv8 · LiDAR · UWB</text>
+    <text x="334" y="170" text-anchor="middle" fill="#79c0ff" font-size="12.5">ROS2</text>
+    <text x="334" y="186" text-anchor="middle" fill="#484f58" font-size="12.5">sensor fusion</text>
+    <text x="529" y="170" text-anchor="middle" fill="#79c0ff" font-size="12.5">DJANGO</text>
+    <text x="529" y="186" text-anchor="middle" fill="#484f58" font-size="12.5">orchestration</text>
+    <text x="729" y="170" text-anchor="middle" fill="#79c0ff" font-size="12.5">MODBUS TCP</text>
+    <text x="729" y="186" text-anchor="middle" fill="#484f58" font-size="12.5">direct control</text>
+    <text x="929" y="170" text-anchor="middle" fill="#79c0ff" font-size="12.5">PLC / DRIVES</text>
+    <text x="929" y="186" text-anchor="middle" fill="#484f58" font-size="12.5">actuation</text>
+  </g>
+  <text x="529" y="218" text-anchor="middle" font-size="11.5" fill="#484f58">▲▼ websockets ~60ms · HMI (react) · redis state reconciliation</text>
   <g font-size="12" fill="#8b949e">
     <text x="44" y="264">django</text><text x="112" y="264">ros2</text><text x="158" y="264">websockets</text>
     <text x="254" y="264">modbus-tcp</text><text x="352" y="264">opencv</text><text x="418" y="264">redis</text>
